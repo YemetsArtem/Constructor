@@ -4,23 +4,32 @@
 <head lang="en">
   <meta charset="utf-8" />
   <title>Survey Creator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" data-semver="3.2.0"
     data-require="bootstrap-css@3.2.0" />
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 survey-container">
-
-        <header class="survey-builder">
-          <h1>Survey Builder</h1>
-          <button id="createBtn">Create new Survey</button>
-        </header>
-
+  <section class="menu">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" id="homeTab" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" id="constructorTab" href="#">Constructor</a>
+          <a class="nav-item nav-link" id="stateTab" href="#">State</a>
+        </div>
       </div>
-    </div>
-  </div>
+    </nav>
+  </section>
+
+  <main class="main"></main>
+
 </body>
 
 </html>

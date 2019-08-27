@@ -36,6 +36,9 @@ class Survey {
   save() {
     const saveSurvey = e => {
       e.preventDefault();
+      const survey = {};
+      survey.title = document.querySelector("#surveytitle");
+      survey.description = document.querySelector("#surveyDescription");
       const inputs = document.querySelectorAll(".form-control");
       inputs.forEach(elem => console.log(elem.value));
     };
